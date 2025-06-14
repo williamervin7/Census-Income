@@ -12,6 +12,7 @@ Build an interpretable, well-performing model to support targeted outreach or pr
 
 - Removed duplicate and irrelevant columns.
 - Handled missing and ambiguous entries (e.g., replacing `'?'` in categorical variables).
+- Consolidated categorical columns 
 - Combined `capital_gain` and `capital_loss` into a new feature: `net_capital`.
 - One-hot encoded all categorical features.
 - Scaled numerical features using `StandardScaler`.
